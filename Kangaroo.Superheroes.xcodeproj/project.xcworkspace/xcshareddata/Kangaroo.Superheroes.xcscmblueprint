@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D283EA15A3183116A99967D11A3CF0C1EA450C5F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D283EA15A3183116A99967D11A3CF0C1EA450C5F" : 0,
+    "280DFCAFE18D02AC35565DC42E8F1BB2F246A7C8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "72030980-12F0-4E3C-B4BB-C7C92472E07F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D283EA15A3183116A99967D11A3CF0C1EA450C5F" : "KangarooUpdated\/",
+    "280DFCAFE18D02AC35565DC42E8F1BB2F246A7C8" : "SuperHero%20Action%20Man"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Kangaroo.Superheroes",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Kangaroo.Superheroes.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ahmadawais\/superhero-action-man.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "280DFCAFE18D02AC35565DC42E8F1BB2F246A7C8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kalpit-dev\/KangarooUpdated.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D283EA15A3183116A99967D11A3CF0C1EA450C5F"
+    }
+  ]
+}

@@ -258,7 +258,7 @@
             [dictMutable setObject:@"Kangaroo Super Heros" forKey:@"gift[sender_name]"];
             [dictMutable setObject:@"Gift card from kangaroo" forKey:@"message_announce"];
 #warning uncomment the below statement for testing purpose
-          //  [dictMutable setObject:@"true" forKey:@"test_gift"];
+            [dictMutable setObject:@"true" forKey:@"test_gift"];
             if ([[dictParameters objectForKey:@"gift_card_type"] isEqualToString:@"1"])
             {
                 [self giftCardAPI:dictMutable completionBlock:^(BOOL successful,NSString *message) {
