@@ -67,7 +67,7 @@ extern int tapcount;
         [sunArray removeAllObjects];
         [sunArray release];
         sunArray = nil;
-
+        
     }
     
     sunArray = [[NSMutableArray alloc] init];
@@ -106,7 +106,7 @@ extern int tapcount;
                     [self addChild:sp];
                     [sunArray addObject:sp];
                     [[CCTextureCache sharedTextureCache] removeTexture:sp.texture];
-                }
+                }/*
                 else if (random>6 && random<10) {
                     sps = [CCSprite spriteWithFile:@"tgreen.png"];
                     sps.position = ccp(SCREEN_WIDTH + DATA_TRACK0[i][0] * kXForIPhone, LOAD_HEIGHT + DELTA_HEIGHT );
@@ -116,9 +116,9 @@ extern int tapcount;
                     [sunArray addObject:sps];
                     [[CCTextureCache sharedTextureCache] removeTexture:sps.texture];
                     [sps runAction:[CCRepeatForever actionWithAction:[[ani_sun copy] autorelease]]];
-                }
+                }*/
             }
-
+            
             break;
         case 1:
             for (int i = 0; DATA_TRACK1[i][0] != 0; i ++) {
@@ -152,7 +152,7 @@ extern int tapcount;
                     [self addChild:sp];
                     [sunArray addObject:sp];
                     [[CCTextureCache sharedTextureCache] removeTexture:sp.texture];
-                }
+                }/*
                 else if (random>6 && random<10) {
                     sps = [CCSprite spriteWithFile:@"tgreen.png"];
                     sps.position = ccp(SCREEN_WIDTH + DATA_TRACK1[i][0] * kXForIPhone, LOAD_HEIGHT + DELTA_HEIGHT );
@@ -162,7 +162,7 @@ extern int tapcount;
                     [sunArray addObject:sps];
                     [[CCTextureCache sharedTextureCache] removeTexture:sps.texture];
                     [sps runAction:[CCRepeatForever actionWithAction:[[ani_sun copy] autorelease]]];
-                }
+                }*/
             }
             
             break;
@@ -198,7 +198,7 @@ extern int tapcount;
                     [self addChild:sp];
                     [sunArray addObject:sp];
                     [[CCTextureCache sharedTextureCache] removeTexture:sp.texture];
-                }
+                }/*
                 else if (random>6 && random<10) {
                     sps = [CCSprite spriteWithFile:@"tgreen.png"];
                     sps.position = ccp(SCREEN_WIDTH + DATA_TRACK2[i][0] * kXForIPhone, LOAD_HEIGHT + DELTA_HEIGHT );
@@ -208,7 +208,7 @@ extern int tapcount;
                     [sunArray addObject:sps];
                     [[CCTextureCache sharedTextureCache] removeTexture:sps.texture];
                     [sps runAction:[CCRepeatForever actionWithAction:[[ani_sun copy] autorelease]]];
-                }
+                }*/
             }
             
             break;
@@ -244,7 +244,7 @@ extern int tapcount;
                     [self addChild:sp];
                     [sunArray addObject:sp];
                     [[CCTextureCache sharedTextureCache] removeTexture:sp.texture];
-                }
+                }/*
                 else if (random>6 && random<10) {
                     sps = [CCSprite spriteWithFile:@"tgreen.png"];
                     sps.position = ccp(SCREEN_WIDTH + DATA_TRACK3[i][0] * kXForIPhone, LOAD_HEIGHT + DELTA_HEIGHT );
@@ -254,7 +254,7 @@ extern int tapcount;
                     [sunArray addObject:sps];
                     [[CCTextureCache sharedTextureCache] removeTexture:sps.texture];
                     [sps runAction:[CCRepeatForever actionWithAction:[[ani_sun copy] autorelease]]];
-                }
+                }*/
             }
             
             break;
@@ -290,7 +290,7 @@ extern int tapcount;
                     [self addChild:sp];
                     [sunArray addObject:sp];
                     [[CCTextureCache sharedTextureCache] removeTexture:sp.texture];
-                }
+                }/*
                 else if (random>6 && random<10) {
                     sps = [CCSprite spriteWithFile:@"tgreen.png"];
                     sps.position = ccp(SCREEN_WIDTH + DATA_TRACK4[i][0] * kXForIPhone, LOAD_HEIGHT + DELTA_HEIGHT );
@@ -300,7 +300,7 @@ extern int tapcount;
                     [sunArray addObject:sps];
                     [[CCTextureCache sharedTextureCache] removeTexture:sps.texture];
                     [sps runAction:[CCRepeatForever actionWithAction:[[ani_sun copy] autorelease]]];
-                }
+                }*/
             }
             
             break;
@@ -336,7 +336,7 @@ extern int tapcount;
                     [self addChild:sp];
                     [sunArray addObject:sp];
                     [[CCTextureCache sharedTextureCache] removeTexture:sp.texture];
-                }
+                }/*
                 else if (random>6 && random<10) {
                     sps = [CCSprite spriteWithFile:@"tgreen.png"];
                     sps.position = ccp(SCREEN_WIDTH + DATA_TRACK5[i][0] * kXForIPhone, LOAD_HEIGHT + DELTA_HEIGHT );
@@ -346,7 +346,7 @@ extern int tapcount;
                     [sunArray addObject:sps];
                     [[CCTextureCache sharedTextureCache] removeTexture:sps.texture];
                     [sps runAction:[CCRepeatForever actionWithAction:[[ani_sun copy] autorelease]]];
-                }
+                }*/
             }
             
             break;
@@ -382,7 +382,7 @@ extern int tapcount;
                     [self addChild:sp];
                     [sunArray addObject:sp];
                     [[CCTextureCache sharedTextureCache] removeTexture:sp.texture];
-                }
+                }/*
                 else if (random>6 && random<10) {
                     sps = [CCSprite spriteWithFile:@"tgreen.png"];
                     sps.position = ccp(SCREEN_WIDTH + DATA_TRACK6[i][0] * kXForIPhone, LOAD_HEIGHT + DELTA_HEIGHT );
@@ -392,7 +392,7 @@ extern int tapcount;
                     [sunArray addObject:sps];
                     [[CCTextureCache sharedTextureCache] removeTexture:sps.texture];
                     [sps runAction:[CCRepeatForever actionWithAction:[[ani_sun copy] autorelease]]];
-                }
+                }*/
             }
             
             break;
@@ -428,7 +428,7 @@ extern int tapcount;
                     [self addChild:sp];
                     [sunArray addObject:sp];
                     [[CCTextureCache sharedTextureCache] removeTexture:sp.texture];
-                }
+                }/*
                 else if (random>6 && random<10) {
                     sps = [CCSprite spriteWithFile:@"tgreen.png"];
                     sps.position = ccp(SCREEN_WIDTH + DATA_TRACK7[i][0] * kXForIPhone, LOAD_HEIGHT + DELTA_HEIGHT );
@@ -438,7 +438,7 @@ extern int tapcount;
                     [sunArray addObject:sps];
                     [[CCTextureCache sharedTextureCache] removeTexture:sps.texture];
                     [sps runAction:[CCRepeatForever actionWithAction:[[ani_sun copy] autorelease]]];
-                }
+                }*/
             }
             
             break;
@@ -474,7 +474,7 @@ extern int tapcount;
                     [self addChild:sp];
                     [sunArray addObject:sp];
                     [[CCTextureCache sharedTextureCache] removeTexture:sp.texture];
-                }
+                }/*
                 else if (random>6 && random<10) {
                     sps = [CCSprite spriteWithFile:@"tgreen.png"];
                     sps.position = ccp(SCREEN_WIDTH + DATA_TRACK8[i][0] * kXForIPhone, LOAD_HEIGHT + DELTA_HEIGHT );
@@ -484,7 +484,7 @@ extern int tapcount;
                     [sunArray addObject:sps];
                     [[CCTextureCache sharedTextureCache] removeTexture:sps.texture];
                     [sps runAction:[CCRepeatForever actionWithAction:[[ani_sun copy] autorelease]]];
-                }
+                }*/
             }
             
             break;
@@ -521,6 +521,7 @@ extern int tapcount;
                     [sunArray addObject:sp];
                     [[CCTextureCache sharedTextureCache] removeTexture:sp.texture];
                 }
+                /*
                 else if (random>6 && random<10) {
                     sps = [CCSprite spriteWithFile:@"tgreen.png"];
                     sps.position = ccp(SCREEN_WIDTH + DATA_TRACK9[i][0] * kXForIPhone, LOAD_HEIGHT + DELTA_HEIGHT );
@@ -530,10 +531,10 @@ extern int tapcount;
                     [sunArray addObject:sps];
                     [[CCTextureCache sharedTextureCache] removeTexture:sps.texture];
                     [sps runAction:[CCRepeatForever actionWithAction:[[ani_sun copy] autorelease]]];
-                }
+                }*/
             }
             break;
-
+            
         default:
             break;
     }

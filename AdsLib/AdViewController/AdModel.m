@@ -283,7 +283,7 @@
                     }
                     else
                     {
-                        NSString *str = [NSString stringWithFormat:@"Your redemption process via our automated redemption system was unsuccessful. Please contact us at redeem@kangaroosuperheroes.com and also quote your Redeem ID :%@ for assistance.",[[dict objectForKey:@"redeem_info"] objectForKey:@"redeem_id"]];
+                        NSString *str = [NSString stringWithFormat:@"Your redemption process via our automated redemption system was unsuccessful. Please contact us at support@kangaroosuperheroes.com and also quote your Redeem ID :%@ for assistance.",[[dict objectForKey:@"redeem_info"] objectForKey:@"redeem_id"]];
                         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Opps! Something went wrong!" message:str delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
                         [alert show];
                         //                    NSMutableDictionary *dictMut = [NSMutableDictionary dictionaryWithDictionary:dictParameters];

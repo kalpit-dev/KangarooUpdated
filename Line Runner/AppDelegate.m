@@ -360,7 +360,7 @@ int tapcount;
 //                str = @"Complete offers to earn \"kangaroo hops\". Keep earning more \"hops\" with every offer you complete and request a cash prize (Minimum 5,000 hops for US$5 Cash Prize).";
                 str = @"";
 //                strHeader = @"Thank you for being such a \"Super Hero\"! Let us reward your loyalty!";
-                strHeader = [NSString stringWithFormat:@"Your Score is %@ Hops.Complete offers to earn \"Kangaroo Hops\". Earn more \"hops\" with every offer you complete and request a prize. Minimum 5,000 Hops To Redeem US$ Cash Prize",[AdModel getScore]];
+                strHeader = [NSString stringWithFormat:@"Your Score is %@ Hops.\nComplete offers to earn \"Kangaroo Hops\". Earn more \"hops\" with every offer you complete and request a prize. Minimum 5,000 Hops To Redeem US$ Cash Prize",[AdModel getScore]];
             }
             
             viewControllerForAd.strInfo = str;
@@ -386,7 +386,7 @@ int tapcount;
     {
 //        str = @"Complete offers to earn \"kangaroo hops\". Keep earning more \"hops\" with every offer you complete and request a cash prize (Minimum 5,000 hops for US$5 Cash Prize).";
         str = @"";
-        strHeader = [NSString stringWithFormat:@"Your Score is %@ Hops Complete offers to earn \"Kangaroo Hops\".\n Earn more \"hops\" with every offer you complete and request a prize.\n Minimum 5,000 Hops To Redeem US$ Cash Prize",[AdModel getScore]];
+        strHeader = [NSString stringWithFormat:@"Your Score is %@ Hops.\n Complete offers to earn \"Kangaroo Hops\".\n Earn more \"hops\" with every offer you complete and request a prize.\n Minimum 5,000 Hops To Redeem US$ Cash Prize",[AdModel getScore]];
         viewControllerForAd.strInfo = str;
         viewControllerForAd.strHeader = strHeader;
         

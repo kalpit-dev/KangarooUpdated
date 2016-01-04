@@ -3261,7 +3261,7 @@
 				MACH_O_TYPE = mh_execute;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = Kangaroo.Superheroes;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "941ca7c6-9068-43cc-8e7e-a56e88d58230";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -3298,7 +3298,7 @@
 				MACH_O_TYPE = mh_execute;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = Kangaroo.Superheroes;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "941ca7c6-9068-43cc-8e7e-a56e88d58230";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

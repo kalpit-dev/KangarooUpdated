@@ -86,7 +86,7 @@ static RateManager *sharedManager = nil;
 
 - (void)showReviewApp{
     gameOverCountForRating++;
-    if(gameOverCountForRating % 11 == 0)
+    if(gameOverCountForRating % 30 == 0)
     {
         if (![self hasAppBeenRated]) {
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:@"Please review this great app! " delegate:self cancelButtonTitle:@"NO" otherButtonTitles:@"YES", nil];
